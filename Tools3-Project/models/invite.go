@@ -1,0 +1,6 @@
+package models
+
+type InviteInput struct {
+    EventID string `json:"eventId"`
+    Email   string `json:"email"`
+}
